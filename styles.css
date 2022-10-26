@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.table {
+    border: 2px solid grey;
+}
+
+th {
+    background: #009578;
+    color: white;
+}
+
+.table td,
+.table th {
+    padding: 10px 20px;
+}
+
+.item {
+    cursor: pointer;
+}
